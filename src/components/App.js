@@ -5,7 +5,11 @@ class App extends Component {
   render()
     return(
       <View>
-        <Text> Fail gym online </Text>
+        <View>
+          <Button />
+          <Text> NHSN </Text>
+        </View>
+
       </View>
     );
 }
