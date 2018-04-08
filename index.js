@@ -1,8 +1,4 @@
-import { AppRegistry, Text } from 'react-native';
-import React from 'react';
+import { AppRegistry } from 'react-native';
+import App from './src/App';
 
-const App = () => (
-  <Text>Hello World</Text>
-);
-
-AppRegistry.registerComponent('NashuaNorthApp', () => App);
+AppRegistry.registerComponent('techStack', () => App);
